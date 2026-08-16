@@ -1,0 +1,51 @@
+2026-08-15 22:55:01,073 [INFO] ============================================================
+2026-08-15 22:55:01,073 [INFO] Batch scoring started at 2026-08-15T22:55:01.073578
+2026-08-15 22:55:01,073 [INFO] Input  : test_data/all_customers.csv
+2026-08-15 22:55:01,074 [INFO] Output : scored_customers.csv
+2026-08-15 22:55:01,074 [INFO] API URL: http://localhost:8000/predict
+2026-08-15 22:55:01,074 [INFO] ============================================================
+2026-08-15 22:55:03,215 [INFO] Customer 7590-VHVEG      | prediction=No  | probability=0.2550
+2026-08-15 22:55:05,309 [INFO] Customer 5575-GNVDE      | prediction=No  | probability=0.0500
+2026-08-15 22:55:07,405 [INFO] Customer 3668-QPYBK      | prediction=Yes | probability=0.9350
+2026-08-15 22:55:09,500 [INFO] Customer 7795-CFOCW      | prediction=No  | probability=0.0300
+2026-08-15 22:55:11,592 [INFO] Customer 9237-HQITU      | prediction=Yes | probability=0.9600
+2026-08-15 22:55:13,686 [INFO] Customer 9305-CDSKC      | prediction=Yes | probability=0.8600
+2026-08-15 22:55:15,779 [INFO] Customer 1452-KIOVK      | prediction=No  | probability=0.0850
+2026-08-15 22:55:17,924 [INFO] Customer 6713-OKOMC      | prediction=No  | probability=0.2250
+2026-08-15 22:55:20,012 [INFO] Customer 7892-POOKP      | prediction=Yes | probability=0.7450
+2026-08-15 22:55:22,122 [INFO] Customer 6388-TABGU      | prediction=No  | probability=0.0300
+2026-08-15 22:55:24,229 [INFO] Customer 9763-GRSKD      | prediction=No  | probability=0.4450
+2026-08-15 22:55:26,322 [INFO] Customer 7469-LKBCI      | prediction=No  | probability=0.2100
+2026-08-15 22:55:28,427 [INFO] Customer 8091-TTVAX      | prediction=No  | probability=0.1100
+2026-08-15 22:55:30,536 [INFO] Customer 0280-XJGEX      | prediction=No  | probability=0.2900
+2026-08-15 22:55:32,647 [INFO] Customer 5129-JLPIS      | prediction=No  | probability=0.1400
+2026-08-15 22:55:34,729 [INFO] Customer 3655-SNQYZ      | prediction=No  | probability=0.1300
+2026-08-15 22:55:36,877 [INFO] Customer 8191-XWKSW      | prediction=No  | probability=0.0200
+2026-08-15 22:55:39,108 [INFO] Customer 9959-WOFKT      | prediction=No  | probability=0.0400
+2026-08-15 22:55:41,300 [INFO] Customer 4190-MFLUW      | prediction=Yes | probability=0.8100
+2026-08-15 22:55:43,499 [INFO] Customer 4183-MYFRB      | prediction=No  | probability=0.2050
+2026-08-15 22:55:45,675 [INFO] Customer 8779-QRDMV      | prediction=Yes | probability=0.9800
+2026-08-15 22:55:47,880 [INFO] Customer 1680-VDCWW      | prediction=Yes | probability=0.7550
+2026-08-15 22:55:50,100 [INFO] Customer 1873-LICLD      | prediction=No  | probability=0.0450
+2026-08-15 22:55:52,293 [INFO] Customer 7368-SNAGG      | prediction=Yes | probability=0.9750
+2026-08-15 22:55:54,473 [INFO] Customer 0534-AEFSW      | prediction=No  | probability=0.0750
+2026-08-15 22:55:56,676 [INFO] Customer 3668-QPYBK      | prediction=Yes | probability=0.9350
+2026-08-15 22:55:58,890 [INFO] Customer 5409-WILTE      | prediction=Yes | probability=0.9550
+2026-08-15 22:56:01,084 [INFO] Customer 0259-MTNMG      | prediction=No  | probability=0.0550
+2026-08-15 22:56:03,244 [INFO] Customer 9143-QCNOD      | prediction=No  | probability=0.0650
+2026-08-15 22:56:05,423 [INFO] Customer 3849-OUEVH      | prediction=Yes | probability=0.8900
+2026-08-15 22:56:05,429 [INFO] 
+Scored results written to scored_customers.csv
+2026-08-15 22:56:05,429 [INFO] 
+============================================================
+2026-08-15 22:56:05,430 [INFO] BATCH SUMMARY
+2026-08-15 22:56:05,430 [INFO] ============================================================
+2026-08-15 22:56:05,430 [INFO] Completed at       : 2026-08-15T22:56:05.429935
+2026-08-15 22:56:05,430 [INFO] Duration           : 64.36 seconds
+2026-08-15 22:56:05,431 [INFO] Total requests     : 30
+2026-08-15 22:56:05,431 [INFO] Successful calls   : 30
+2026-08-15 22:56:05,431 [INFO] Failed predictions : 0
+2026-08-15 22:56:05,431 [INFO] Churn = Yes        : 11
+2026-08-15 22:56:05,431 [INFO] Churn = No         : 19
+2026-08-15 22:56:05,431 [INFO] Avg churn prob     : 0.4102
+2026-08-15 22:56:05,432 [INFO] ============================================================
